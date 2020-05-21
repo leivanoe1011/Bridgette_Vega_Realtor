@@ -28,6 +28,7 @@ nav{
   z-index: 5;
 }
 
+
 .sidenav{
   position: fixed;
 }
@@ -35,6 +36,18 @@ nav{
 .sidenav-overlay{
   background-color: transparent;
 }
+
+.nav_contract{
+  height: inherit;
+  transition: height 5s;
+}
+
+.nav_expand{
+  height: 100px;
+  transition: height 5s;
+}
+
+
 
 @media screen and (max-width: 670px){
   header{
