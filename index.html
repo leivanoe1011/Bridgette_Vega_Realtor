@@ -1,0 +1,331 @@
+
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      
+      <!-- font awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+      
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    
+      <!-- Animate CSS -->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+      />
+    
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="assets/css/style.css">
+    
+      <!-- <style>
+      
+    
+        header{
+          background-image: url(assets/img/man.jpg);
+          background-size: cover;
+          background-position: center;
+          min-height: 1000px; 
+        }
+    
+        .section{
+          /* View Width */
+          padding-top: 4vw;
+          padding-bottom: 4vw;
+        }
+    
+        .tabs .indicator {
+          background-color: #1a237e;
+        }
+    
+        .tabs .tab a:focus, .tabs .tab a:focus.active{
+          background: transparent;
+        }
+    
+        nav{
+          position: fixed;
+          padding:0px 20px;
+          background: rgba(0, 0, 0, 0.2);
+          z-index: 5;
+        }
+    
+        @media screen and (max-width: 670px){
+          header{
+            min-height: 500px;
+          }
+        }
+    
+      
+      </style> -->
+    
+    
+      <title>BV</title>
+      
+    </head>
+    <body>
+    
+      <!-- navbar -->
+      <header>
+        <nav class="nav-wrapper transparent white-text">
+          <div class="container">
+            <a href="#" class="brand-logo">BRIDGETTE VEGA</a>
+    
+            <!-- Mobile Device Menu -->
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+              <i class="material-icons">menu</i>
+            </a>
+    
+            <!-- The Navigation Bar will hide for medium and small size screens -->
+            <ul id="nav_menu" class="right hide-on-med-and-down">
+              <li><a href="#photos">Photos</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+             
+              <!-- Fab Icons -->
+              <li>
+                <a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Facebook">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="LinkedIn">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+    
+            </ul>
+    
+            <!-- The menu that will appear when the page is viewed in mobile device -->
+            <ul class="sidenav grey lighten-2" id="mobile-menu">
+              <li><a href="#photos">Photos</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contanct">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    
+      <!-- photo / grid -->
+      <section class="container section scrollspy" id="photos">
+        <div class="row wow animate__animated animate__fadeInLeft animate__slower">
+    
+          <!-- Div will be 12 columns in small screens and 4 for large screens -->
+          <div class="col s12 l4">
+    
+            <!-- response-img will make the image responsive and take the width of the container -->
+            <img src="assets/img/portrait.jpg" alt="portrait" class="responsive-img materialboxed">
+          </div>
+    
+          <!-- Offset only large screens -->
+          <div class="col s12 l6 offset-l1">
+            <h2 class="indigo-text text-darken-4">Portraits</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum officiis at veniam eius deserunt unde, nisi porro, consectetur quia sunt id est nihil esse commodi cum sequi nam architecto iure!</p>
+          </div>
+        </div>
+        <!-- End Row -->
+    
+        <!-- Begin Row -->
+        <div class="row wow animate__animated animate__fadeInRight animate__slower">
+    
+          <!-- Div will be 12 columns in small screens and 4 for large screens -->
+          <div class="col s12 l4 push-l7 offset-l1">
+    
+            <!-- response-img will make the image responsive and take the width of the container -->
+            <img src="assets/img/city.jpg" alt="portrait" class="responsive-img materialboxed">
+          </div>
+    
+          <div class="col s12 l6 pull-l5 right-align offset-l1">
+            <h2 class="indigo-text text-darken-4">Cityscapes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum officiis at veniam eius deserunt unde, nisi porro, consectetur quia sunt id est nihil esse commodi cum sequi nam architecto iure!</p>
+          </div>
+        </div>
+        <!-- End Row -->
+    
+        <!-- Begin Row -->
+        <div class="row wow animate__animated animate__fadeInLeft animate__slower">
+    
+          <!-- Div will be 12 columns in small screens and 4 for large screens -->
+          <div class="col s12 l4">
+    
+            <!-- response-img will make the image responsive and take the width of the container -->
+            <img src="assets/img/nature.jpg" alt="portrait" class="responsive-img materialboxed">
+          </div>
+    
+          <div class="col s12 l6  offset-l1">
+            <h2 class="indigo-text text-darken-4">Nature</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum officiis at veniam eius deserunt unde, nisi porro, consectetur quia sunt id est nihil esse commodi cum sequi nam architecto iure!</p>
+          </div>
+        </div>
+        <!-- End Row -->
+    
+      </section>
+    
+    
+      <!-- parallax -->
+      <div class="parallax-container">
+        <div class="parallax">
+          <img src="assets/img/luxury_home_v4.jpg" alt="stars" class="responsive-img">
+        </div>
+      </div>
+    
+      <!-- services / tabs -->
+      <section class="container section scrollspy" id="services">
+        <div class="row wow animate__animated animate__fadeInUp animate__slower">
+          <div class="col s12 l4">
+            <h2 class="indigo-text text-darken-4">What I do...</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit optio facere, tempora temporibus dolorum aperiam tempore a nesciunt! Tempora, modi repellendus beatae praesentium omnis tenetur nobis provident ducimus quae in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequuntur eligendi eveniet ipsam error sed dolore beatae. Quas perferendis molestias quis nihil, deserunt iusto nostrum culpa. Laboriosam ad eligendi vitae?</p>
+          </div>
+    
+          <div class="col s12 l6 offset-l2">
+            <ul class="tabs">
+              <li class="tab col s6">
+                <a href="#photography" class="indigo-text text-darken-4">Property Management</a>
+              </li>
+    
+              <li class="tab col s6">
+                <a href="#editing" class="indigo-text text-darken-4">Editing</a>
+              </li>
+    
+            </ul>        
+    
+            <div class="col s12" id="photography">
+              <p class="flow-text indigo-text text-darken-4">PROPERTY MANAGEMENT</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta quae quidem voluptas obcaecati, cumque sit fuga beatae neque dicta tenetur? Omnis minus facilis voluptatum impedit excepturi autem expedita non voluptate.</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta quae quidem voluptas obcaecati, cumque sit fuga beatae neque dicta tenetur? Omnis minus facilis voluptatum impedit excepturi autem expedita non voluptate.</p>
+              
+            </div>
+    
+            <div class="col s12" id="editing">
+              <p class="flow-text indigo-text text-darken-4">EDITING</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta quae quidem voluptas obcaecati, cumque sit fuga beatae neque dicta tenetur? Omnis minus facilis voluptatum impedit excepturi autem expedita non voluptate.</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta quae quidem voluptas obcaecati, cumque sit fuga beatae neque dicta tenetur? Omnis minus facilis voluptatum impedit excepturi autem expedita non voluptate.</p>
+              
+            </div>
+    
+          </div>
+        </div>
+      </section>
+    
+    
+    
+      <!-- parallax -->
+      <div class="parallax-container">
+        <div class="parallax">
+          <img src="/assets/img/Interior_design_v1.jpg" alt="stars" class="responsive-img">
+        </div>
+      </div>
+    
+    
+      <!-- contact form -->
+      <section class="container section scrollspy" id="contact">
+        <div class="row wow animate__animated animate__slideInUp animate__slower">
+          <div class="col s12 l5">
+            <h2 class="indigo-text text-darken-4">Get In Touch</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi quibusdam temporibus facilis, iste distinctio ut labore repellendus minima placeat deserunt sed nulla iure, magni dolorum perferendis similique quod libero aliquid.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni libero sint repellat quae porro, aperiam delectus! Explicabo, culpa fugit? Ducimus dignissimos perspiciatis recusandae aperiam! Officiis at quos ab dolorem nisi?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi quibusdam temporibus facilis, iste distinctio ut labore repellendus minima placeat deserunt sed nulla iure, magni dolorum perferendis similique quod libero aliquid.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni libero sint repellat quae porro, aperiam delectus! Explicabo, culpa fugit? Ducimus dignissimos perspiciatis recusandae aperiam! Officiis at quos ab dolorem nisi?</p>
+          </div>
+    
+          <!-- Offset by 2 will place a 2 column gap between DIV -->
+          <div class="col s12 l5 offset-l2">
+            <form action="">
+              <div class="input-field">
+                <i class="material-icons prefix">email</i>
+                <input type="email" id="email">
+                <label for="email">Your Email</label>
+              </div>
+    
+              <div class="input-field">
+                <i class="material-icons prefix">message</i>
+                <textarea id="message" class="materialize-textarea"></textarea>
+                <label for="message">Your Message</label>
+              </div>
+    
+              <div class="input-field">
+                <input type="text" id="date" class="datepicker">
+                <label for="date">Choose a data you need me for</label>
+              </div>
+    
+              <div class="input-field">
+                <p>Services Required...</p>
+                <p>
+                  <label>
+                    <input type="checkbox">
+                    <span>Photography</span>
+                  </label>
+                </p>
+    
+                <p>
+                  <label>
+                    <input type="checkbox">
+                    <span>Editing</span>
+                  </label>
+                </p>
+              </div>
+    
+              <div class="input-field center">
+                <button class="btn">Submit</button>
+              </div>
+    
+            </form>
+          </div>
+          <!-- End of Form -->
+       
+        </div>
+      </section>
+    
+      <!-- footer -->
+      <footer class="page-footer grey darken-3">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 l6">
+              <h5>About Me</h5>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, dolore obcaecati est aperiam exercitationem deleniti tenetur magni, commodi iusto odit qui quos pariatur ratione! Autem voluptas inventore earum laudantium obcaecati.</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio veritatis deserunt eum quas sed reiciendis molestiae ipsam, culpa sit iste quod, quisquam in laborum aut. Veritatis blanditiis laudantium ad voluptate!</p>
+    
+            </div>
+    
+            <div class="col s12 l4 offset-l2">
+              <h5>Connect</h5>
+              <ul>
+                <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
+                <li><a href="#" class="grey-text text-lighten-3">Instragram</a></li>
+                <li><a href="#" class="grey-text text-lighten-3">LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+          <div class="container center-align">&copy; <script>document.write(new Date().getFullYear())</script> BRIDGETTE VEGA</div>
+        </div>
+      </footer>
+    
+    
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+      
+      <!-- Custom App JS -->
+      <script src="assets/js/app.js"></script>
+    
+      <!-- WOW JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+      <script> new WOW().init(); </script>
+    
+    
+    </body>
+    </html>
