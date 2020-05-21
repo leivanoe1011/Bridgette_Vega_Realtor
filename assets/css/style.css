@@ -1,10 +1,23 @@
 
 
 header{
-  background-image: url('../img/header_home.jpg');
+  background-image: url('https://raw.githubusercontent.com/leivanoe1011/Bridgette_Vega_Realtor/master/assets/img/header_home.jpg');
   background-size: cover;
   background-position: center;
   min-height: 60vw;
+}
+
+#backgroundImage {
+  padding-top: 3%;
+  padding-bottom: 97%;
+  background-image: url('https://jennp1987.github.io/644_final/images/pizza_bkground.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+
 }
 
 .section{
