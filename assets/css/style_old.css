@@ -45,8 +45,18 @@ nav.scroll_transition{
   background: rgba(255, 255, 255, 0.8);
   height: 80px;
   padding: 10px 50px;
+
 }
 
+/* Code for Logo */
+/* nav.scroll_transition .brand-logo{
+  height: 60px;
+} */
+
+/* nav.scroll_transition ul li a{
+  color: #fff;
+  line-height: 60px;
+} */
 
 .sidenav{
   position: fixed;
@@ -56,6 +66,22 @@ nav.scroll_transition{
   background-color: transparent;
 }
 
+/* Code for logo */
+/* nav .brand-logo{
+  float: left;
+} */
+
+nav .brand-logo{
+  /* height: 80px; */
+  padding: 10px 20px;
+  transition: .5s;
+}
+
+nav div ul li a{
+  line-height: 80px;
+  /* padding: 5px 20px; */
+  transition: .5s;
+}
 
 @media screen and (max-width: 670px){
   header{
@@ -63,6 +89,7 @@ nav.scroll_transition{
   }
 
   .brand-logo{
-    font-size: 20px !important;
+    font-size: 25px !important;
+    padding-top: -50px;
   }
 }
